@@ -3,15 +3,15 @@ using static System.Net.Mime.MediaTypeNames;
 
 var exerciseChoice = new ChooseExercises();
 string input;
-int numberOfTests = 0;
+int numberOfTests = 1;
 
 do
 {
-    if (numberOfTests > 0)
+    if (numberOfTests > 1)
     {
         Console.WriteLine();
     }
-    Console.WriteLine("Choose the area that needs to be tested or press 'Q' to exit:");
+    Console.WriteLine($"Choose the area that needs to be tested or press 'Q' to exit: ({numberOfTests})");
     Console.WriteLine(
         "1: Control flow\n" +
         "2: Arrays and Lists\n" +

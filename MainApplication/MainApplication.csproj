@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ArraysLists\ArraysLists.csproj" />
     <ProjectReference Include="..\ControlFlow\ControlFlow.csproj" />
+    <ProjectReference Include="..\File\File.csproj" />
+    <ProjectReference Include="..\Text\Text.csproj" />
   </ItemGroup>
 
 </Project>
