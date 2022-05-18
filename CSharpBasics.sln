@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlFlow", "ControlFlow\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApplication", "MainApplication\MainApplication.csproj", "{81DD8F93-C05F-4FEB-AAB9-ADD1CFB7C3F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysLists", "ArraysLists\ArraysLists.csproj", "{2E68023E-E818-4863-B7C8-8AAB117D0E46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysLists", "ArraysLists\ArraysLists.csproj", "{2E68023E-E818-4863-B7C8-8AAB117D0E46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text", "Text\Text.csproj", "{6E845FE0-1BBD-4CAD-8532-CB5A99322ED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Text", "Text\Text.csproj", "{6E845FE0-1BBD-4CAD-8532-CB5A99322ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File", "File\File.csproj", "{441E1169-C9C0-45BA-B74A-6B9EA19FB410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "File\Files.csproj", "{441E1169-C9C0-45BA-B74A-6B9EA19FB410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

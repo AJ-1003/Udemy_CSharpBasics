@@ -226,3 +226,24 @@ builder.Remove(0, 10);
 builder.Insert(0, new string('*', 10));
 
 Console.WriteLine(builder);
+Console.WriteLine();
+
+// ----- Files -----
+Console.WriteLine("-----< Files >-----");
+
+// File
+var path = @"c:\someFile.txt";
+
+File.Copy(path, @"d:\copyOfSomeFile.txt", true);
+File.Delete(path);
+
+if (File.Exists(path))
+{
+    // Code block...
+}
+
+var content = File.ReadAllText(path);
+
+// FileInfo
+var fileInfo = new FileInfo(path);
+fileInfo.CopyTo(@"c:\");
